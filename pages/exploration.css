@@ -1,0 +1,31 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/mountains-universe-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#mainExplorer {
+  color: var(--text-color);
+  max-width: 65rem;
+  padding-inline: clamp(3rem, 0.1rem + 9vw, 12rem);
+  margin-top: clamp(0.1rem, 0.1rem + 7vh, 7rem);
+
+  align-items: start;
+}
+
+#h2Explorer {
+  font-size: 4.8rem;
+  padding-bottom: 1.6rem;
+}
+
+#pExplorer {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+
+  margin-bottom: 2.5rem;
+  padding: 0 0.5rem;
+}
